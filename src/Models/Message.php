@@ -10,9 +10,12 @@ use NiNaCoder\Chat\Eventing\AllParticipantsDeletedMessage;
 use NiNaCoder\Chat\Eventing\EventGenerator;
 use NiNaCoder\Chat\Eventing\MessageWasSent;
 
-class Message extends BaseModel
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+
+class Message extends BaseModel implements HasMedia
 {
-    use EventGenerator;
+    use EventGenerator, InteractsWithMedia;
 
     protected $fillable = [
         'body',
