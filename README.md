@@ -1,6 +1,5 @@
 FOLK FROM: https://github.com/ninacoder-info/chat
 
-<a href="https://codeclimate.com/github/ninacoder-info/chat/maintainability"><img src="https://api.codeclimate.com/v1/badges/85f152eae2a04b25783d/maintainability" /></a>
 ## Chat
 
 Create a Chat application for your multiple Models
